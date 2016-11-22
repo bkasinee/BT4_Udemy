@@ -40,7 +40,7 @@ img {
 #stage {
 	background: url('../img/ltp.jpg') center center no-repeat;
 	background-size: cover;
-	color:black;
+	color:#262F36;
 	height: 100%;
 	width:100%;
 	display:flex;
@@ -56,7 +56,7 @@ img {
 }
 
 #stage-caption h1{
-	color: black;
+	color: #262F36;
 	font-weight:bold;
 	text-transform: uppercase;
 }
@@ -64,4 +64,63 @@ img {
 .feature-content {
 	padding: 8rem 0;
 	overflow: hidden;
+}
+
+.feature-content img{
+	margin-bottom: : -8rem;
+}
+
+.feature-dark {
+	background: #262F36;
+	color: white;
+}
+
+.feature-dark h2{
+	color: white;
+}
+
+.feature-alt{
+	background: #F0F0F0;
+}
+
+#feature-two .feature-content{
+	padding-bottom: 0;
+}
+
+#feature-four .feature-content{
+	padding: 0;
+}
+
+#feature-five .feature-content{
+	padding-bottom: 0;
+}
+
+#feature-five img{
+	margin-top:2rem;
+}
+
+#feature-six .feature-content{
+	padding-bottom: 0;
+}
+
+#main-footer {
+	background: #262F36;
+	color: white;
+	padding: 6rem 0;
+	font-size: 0.8rem;
+}
+
+#main-footer h6{
+	color: #718FA9;
+}
+
+#main-footer a{
+	color: #6C6F73;
+}
+
+@media screen and ( min-width : 991px ) {
+	.feature-content {
+		display: flex;
+		align-items: center;
+	}
 }
